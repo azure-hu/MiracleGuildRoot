@@ -1,0 +1,37 @@
+﻿Build started 2011.08.12. 15:44:10.
+     1>Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MiracleAdmin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing mgmain.h...
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\KDE\include /I.\GeneratedFiles\Release /IC:\KDE\include\qtmain /IC:\KDE\include\QtCore /IC:\KDE\include\QtGui /IC:\KDE\include\QtSql /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MiracleAdmin.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_mgmain.cpp main.cpp mgmain.cpp
+         moc_mgmain.cpp
+         main.cpp
+         mgmain.cpp
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\KDE\MGAdmin3\MiracleAdmin\\MiracleAdmin.exe" /NOLOGO /LIBPATH:C:\KDE\lib qtmain.lib QtCore4.lib QtGui4.lib QtSql4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MiracleAdmin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.lib" /MACHINE:X86 Release\MiracleAdmin.res
+         Release\qrc_mgmain.obj
+         Release\moc_mgmain.obj
+         Release\main.obj
+         Release\mgmain.obj
+         Release\stdafx.obj
+         qtmain.lib(qtmain_win.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+         MiracleAdmin.vcxproj -> C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\KDE\MGAdmin3\MiracleAdmin\\MiracleAdmin.exe;#1" /manifest Release\MiracleAdmin.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MiracleAdmin.unsuccessfulbuild".
+         Touching "Release\MiracleAdmin.lastbuildstate".
+     1>Done Building Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.58

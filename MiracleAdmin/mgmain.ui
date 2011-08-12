@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MGMainClass</class>
+ <widget class="QWidget" name="MGMainClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Miracle Guild Administration</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="addMemberTab">
+      <attribute name="title">
+       <string>Tag felvétel</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetNoConstraint</enum>
+         </property>
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+         </property>
+         <property name="labelAlignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="formAlignment">
+          <set>Qt::AlignJustify|Qt::AlignTop</set>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="nameLabel">
+           <property name="text">
+            <string>Karakter neve:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="classLabel">
+           <property name="text">
+            <string>Kaszt:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>Druid</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Hunter</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Mage</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Paladin</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Priest</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Rogue</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Shaman</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Warlock</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Warrior</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Death Knight</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="roleLabel">
+           <property name="text">
+            <string>Szerepkör:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="role1Combo">
+           <item>
+            <property name="text">
+             <string>DPS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Healer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tank</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="role2Combo">
+           <item>
+            <property name="text">
+             <string>DPS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Healer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tank</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="profLabel">
+           <property name="text">
+            <string>Szakma:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="prof1Combo">
+           <item>
+            <property name="text">
+             <string>-NULL-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Alchemy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Blacksmithing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Enchanting</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Engineering</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Herbalism</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Inscription</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Jewelcrafting</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Leatherworking</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Skinning</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tailoring</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="mainLabel">
+           <property name="text">
+            <string>Main Karakter:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QCheckBox" name="mainCheck">
+           <property name="text">
+            <string>Main Karakter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QComboBox" name="mainCombo"/>
+         </item>
+         <item row="8" column="0">
+          <widget class="QPushButton" name="recordButton">
+           <property name="text">
+            <string>Rögzítés</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="prof2Combo">
+           <item>
+            <property name="text">
+             <string>-NULL-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Alchemy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Blacksmithing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Enchanting</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Engineering</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Herbalism</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Inscription</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Jewelcrafting</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Leatherworking</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Skinning</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tailoring</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Raid Tab</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_1">
+         <property name="title">
+          <string>Group 1</string>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Page</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

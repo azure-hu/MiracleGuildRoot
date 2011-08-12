@@ -1,30 +1,42 @@
-﻿Build started 2011.08.12. 14:41:18.
-     1>Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Debug\MiracleAdmin.unsuccessfulbuild".
+﻿Build started 2011.08.12. 18:06:37.
+     1>Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MiracleAdmin.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\MiracleAdmin.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
+         Moc'ing mgmain.h...
          Uic'ing mgmain.ui...
+         Rcc'ing mgmain.qrc...
+     1>RCC : warning : No resources in 'C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\mgmain.qrc'.
+         
        ClCompile:
-         All outputs are up-to-date.
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\KDE\include /I.\GeneratedFiles\Debug /IC:\KDE\include\qtmain /IC:\KDE\include\QtCore /IC:\KDE\include\QtGui /IC:\KDE\include\QtSql /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MiracleAdmin.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mgmain.cpp main.cpp mgmain.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\include /I.\GeneratedFiles\Debug /IC:\Qt\include\qtmain /IC:\Qt\include\QtCore /IC:\Qt\include\QtGui /IC:\Qt\include\QtSql /I.\ /Z7 /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MiracleAdmin.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\include /I.\GeneratedFiles\Debug /IC:\Qt\include\qtmain /IC:\Qt\include\QtCore /IC:\Qt\include\QtGui /IC:\Qt\include\QtSql /I.\ /Z7 /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MiracleAdmin.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mgmain.cpp main.cpp mgmain.cpp
          moc_mgmain.cpp
          main.cpp
          mgmain.cpp
          Generating Code...
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\KDE\include /I.\GeneratedFiles\Debug /IC:\KDE\include\qtmain /IC:\KDE\include\QtCore /IC:\KDE\include\QtGui /IC:\KDE\include\QtSql /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mgmain.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\include /I.\GeneratedFiles\Debug /IC:\Qt\include\qtmain /IC:\Qt\include\QtCore /IC:\Qt\include\QtGui /IC:\Qt\include\QtSql /I.\ /Z7 /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mgmain.cpp
          qrc_mgmain.cpp
        ResourceCompile:
          C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\MiracleAdmin.res" MiracleAdmin.rc 
        Link:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\KDE\MGAdmin3\MiracleAdmin\\MiracleAdmin.exe" /NOLOGO /LIBPATH:C:\KDE\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtSqld4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MiracleAdmin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.lib" /MACHINE:X86 Debug\MiracleAdmin.res
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\KDE\MGAdmin3\MiracleAdmin\\MiracleAdmin.exe" /NOLOGO /LIBPATH:C:\Qt\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtSqld4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MiracleAdmin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.lib" /MACHINE:X86 Debug\MiracleAdmin.res
          Debug\moc_mgmain.obj
          Debug\qrc_mgmain.obj
          Debug\main.obj
          Debug\mgmain.obj
          Debug\stdafx.obj
-     1>LINK : fatal error LNK1104: cannot open file 'qtmaind.lib'
-     1>Done Building Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" (build target(s)) -- FAILED.
+         MiracleAdmin.vcxproj -> C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\KDE\MGAdmin3\MiracleAdmin\\MiracleAdmin.exe;#1" /manifest Debug\MiracleAdmin.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MiracleAdmin.unsuccessfulbuild".
+         Touching "Debug\MiracleAdmin.lastbuildstate".
+     1>Done Building Project "C:\KDE\MGAdmin3\MiracleAdmin\MiracleAdmin\MiracleAdmin.vcxproj" (rebuild target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:03.05
+Time Elapsed 00:00:21.80

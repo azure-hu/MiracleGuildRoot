@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mgmain.ui'
 **
-** Created: Fri Aug 12 14:41:41 2011
-**      by: Qt User Interface Compiler version 4.7.1
+** Created: Fri Aug 12 18:07:40 2011
+**      by: Qt User Interface Compiler version 4.7.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/

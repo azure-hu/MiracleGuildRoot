@@ -3,6 +3,7 @@
 
 #include <QtGui/QWidget>
 #include <QSqlDatabase>
+#include <QSqlQuery>
 #include "ui_mgmain.h"
 
 #define _group 5
